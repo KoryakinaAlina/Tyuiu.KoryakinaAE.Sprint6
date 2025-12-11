@@ -9,7 +9,7 @@ namespace Tyuiu.KoryakinaAE.Sprint6.Task2.V19.Test
         public void TestMassFunctionLength()
         {
             DataService ds = new DataService();
-            double[] TestArray = new double[] { 1.18, -14.95, -16.13, -7.17, -1.3, 0, -5.62, -0.52, 7.63, 5.97, -10.17 };
+            double[] TestArray = new double[] { -0.62, -16.79,-17.77, -6.3, -5.04, -6.0, -7.85, -2.43, 5.91, 4.33, -11.82 };
             CollectionAssert.AreEqual(TestArray, ds.GetMassFunction(-5, 5));
         }
     }

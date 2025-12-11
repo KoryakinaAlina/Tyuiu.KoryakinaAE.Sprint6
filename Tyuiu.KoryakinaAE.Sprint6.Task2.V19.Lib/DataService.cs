@@ -14,14 +14,7 @@ namespace Tyuiu.KoryakinaAE.Sprint6.Task2.V19.Lib
             int count = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                if (x == 0)
-                {
-                    valueArray[count] = 0.00;
-                    count++;
-                    continue;
-                }
-
-                y = Math.Round((Math.Sin(x) / x + 1.7) - Math.Cos(x) * 4 * x - 6, 2);
+                y = Math.Round((Math.Sin(x) / (x + 1.7)) - Math.Cos(x) * 4 * x - 6, 2);
                 valueArray[count] = y;
                 count++;
             }
