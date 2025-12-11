@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KoryakinaAE.Sprint6.T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KoryakinaAE.Sprint6.Task2.V19.Test", "Tyuiu.KoryakinaAE.Sprint6.Task2.V19.Test\Tyuiu.KoryakinaAE.Sprint6.Task2.V19.Test.csproj", "{CAB67EE4-EAB5-413D-897E-5CDD3ADCB828}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KoryakinaAE.Sprint6", "Tyuiu.KoryakinaAE.Sprint6\Tyuiu.KoryakinaAE.Sprint6.csproj", "{1371FBF8-A950-41A0-B4F0-85177F1CAD35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.KoryakinaAE.Sprint6.Task2.V19", "Tyuiu.KoryakinaAE.Sprint6\Tyuiu.KoryakinaAE.Sprint6.Task2.V19.csproj", "{1371FBF8-A950-41A0-B4F0-85177F1CAD35}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
