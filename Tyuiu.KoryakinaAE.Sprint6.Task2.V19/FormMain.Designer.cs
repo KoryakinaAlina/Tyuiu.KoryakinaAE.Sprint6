@@ -1,5 +1,5 @@
 ﻿using System.Windows.Forms.DataVisualization.Charting;
-namespace Tyuiu.KoryakinaAE.Sprint6
+namespace Tyuiu.KoryakinaAE.Sprint6.Task2.V19
 {
     partial class FormMain
     {
