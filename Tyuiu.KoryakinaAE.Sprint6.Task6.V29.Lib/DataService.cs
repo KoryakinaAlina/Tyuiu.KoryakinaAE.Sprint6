@@ -6,25 +6,24 @@ namespace Tyuiu.KoryakinaAE.Sprint6.Task6.V29.Lib
     {
         public string CollectTextFromFile(string path)
         {
-            string result = "";
-
-            using (StreamReader sr = new StreamReader(path))
+            string res = "";
+            using (StreamReader rd = new StreamReader(path))
             {
-                string? line;
-
-                while ((line = sr.ReadLine()) != null)
+                string line;
+                while ((line = rd.ReadLine()) != null)
                 {
-                    string[] words = line.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-
-                    foreach (string word in words)
+                    string[] str = line.Split(" ");
+                    for (int i = 0; i < str.Length; i++)
                     {
-                        if (word.Contains('i'))
-                            result += word + " ";
+                        if (str[i].Contains("i"))
+                        {
+                            res += str[i] + " ";
+                        }
                     }
                 }
             }
-
-            return result.TrimEnd();
+            res = res.Trim();
+            return res;
         }
     }
 }
