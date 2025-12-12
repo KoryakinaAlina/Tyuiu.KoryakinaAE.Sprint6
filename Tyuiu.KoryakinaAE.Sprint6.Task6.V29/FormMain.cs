@@ -4,12 +4,12 @@ namespace Tyuiu.KoryakinaAE.Sprint6.Task6.V29
 {
     public partial class FormMain : Form
     {
-        DataService ds = new DataService();
-        string path;
         public FormMain()
         {
             InitializeComponent();
         }
+        DataService ds = new DataService();
+        string path;
 
         private void buttonStart_BAA_Click(object sender, EventArgs e)
         {
